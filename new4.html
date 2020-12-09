@@ -20,7 +20,7 @@
 <body>
  <header>
     <div id="logo" >
-      <div class="log"> <a id="for_main" onclick="slowScroll('#top2')" href="main.html"><img src="assets/olympic_rings_PNG14.png" alt="" width="110px" height="110px"> </a></div>
+      <div class="log"> <a id="for_main" onclick="slowScroll('#top2')" href="index.html"><img src="assets/olympic_rings_PNG14.png" alt="" width="110px" height="110px"> </a></div>
     </div>
     <div id="about">
       <div class="dropdown">
@@ -142,7 +142,7 @@
     $(document).on("scroll", function () {
       if ($(window).scrollTop() === 0) {
         $("header").removeClass("fixed");
-        document.getElementById('for_main').href ="main.html";
+        document.getElementById('for_main').href ="index.html";
       }
       else {
         $("header").attr("class", "fixed");
